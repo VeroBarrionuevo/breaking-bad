@@ -1,0 +1,22 @@
+.container {
+    background-image: url(../static/images/hero1.jpg);
+    height: 129vh;
+    background-size: cover;
+    
+}
+
+.button{
+    background-color: #155736;
+    font-weight: bold;
+    
+}
+
+.buttons{
+    margin-left: 0%;
+}
+
+.button:hoover{
+    background-color: #c6bb1b;
+}
+
+

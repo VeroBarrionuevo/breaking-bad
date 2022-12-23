@@ -1,0 +1,25 @@
+
+
+
+.span {
+    color: hsl(0, 72%, 28%);
+    background-color: #c6bb1b;
+    text-align: center;
+    font-size: 5em;
+    
+}
+
+.p {
+    color: rgb(123, 20, 20);
+    background-color: rgb(198, 187, 27);
+    text-align: center;
+    font-size: 2em;
+}
+
+.h3 {
+    color:  rgb(26,51,30);
+    font-size: 3em;
+    text-align: left;
+    font-variant: small-caps;
+}
+

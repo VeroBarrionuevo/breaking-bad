@@ -1,0 +1,15 @@
+.grid {
+    color: rgb(123, 20, 20);
+    margin: 8px;
+    background-color: rgb(224, 240, 72);
+    border: 3px solid rgba(181, 240, 72, 0.308);
+}
+
+.h3 {
+    font-variant: small-caps;
+    color:  rgb(26,51,30);
+    font-size: 3em;
+    text-align: left;
+}
+
+

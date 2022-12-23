@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0rem;
 }
 
 .main {
@@ -28,9 +28,10 @@
   flex-grow: 1;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.title {
+  color: rgb(26,51,30);
+  font-weight: bold;
+  font-variant: small-caps;
 }
 
 .title a:hover,

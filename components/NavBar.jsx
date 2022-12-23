@@ -5,8 +5,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import MenuBookRoundedIcon from '@mui/icons-material/MenuBookRounded';
 import LoginRoundedIcon from '@mui/icons-material/LoginRounded';
 import ScienceRoundedIcon from '@mui/icons-material/ScienceRounded';
 import style from '../styles/NavBar.module.css'

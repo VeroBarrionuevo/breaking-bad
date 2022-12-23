@@ -1,20 +1,71 @@
 import React from "react";
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import {
+  AppBar,
+  Box,
+  Stack,
+  Toolbar,
+  Typography
+} from "@mui/material";
 
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-
-
-function Footer() {
-  const shareURL = "www.google.com"
+const Footer = () => {
   return (
-      <>
-        <FacebookIcon/>
-        <InstagramIcon/>
-        <WhatsAppIcon />
-      </>
-    )
-}
+    <footer>
+      <Box>
+        <AppBar
+          sx={{
+            width: 1349,
+            height: 120,
+            position: "static",
+            background: "linear-gradient(to top, #1a331e, #155736)",
+          }}
+        >
+          <Toolbar
+            sx={{
+              height: "200px",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "12px",
+            }}
+          >
+            <Typography sx={{ fontWeight: "bold" }}>
+              Breaking Bad Wiki | Hecho por Verónica Barrionuevo
+            </Typography>
+            <Typography>Copyright &copy; 2022 - Todos los derechos reservados.</Typography>
+          
 
-export default Footer
+            <Stack
+              direction="row"
+              justifyContent="center"
+              alignItems="center"
+              spacing={12}
+            >
+              <a
+                href="https://github.com/VeroBarrionuevo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHubIcon fontSize="large" sx={{ color: "white" }} />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/veronicab/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
+              </a>
+            </Stack>
+          </Toolbar>
+        </AppBar>
+      </Box>
+    </footer>
+  );
+};
+
+export default Footer;
+
+
