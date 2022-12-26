@@ -5,9 +5,6 @@ import Hero from '../components/Hero'
 import Gallery from '../components/Gallery'
 import Cards from '../components/Cards'
 
-
-
-
 export default function Home() {
   return (
     <div className={styles.container}
@@ -28,6 +25,8 @@ export default function Home() {
         
         < Cards/>
         < Gallery/>
+
+        
 
 
       </main>

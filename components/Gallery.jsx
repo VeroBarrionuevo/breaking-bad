@@ -2,6 +2,8 @@ import React from 'react'
 import styles from "../styles/Gallery.module.css"
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import { useState } from 'react';
+import { Button } from '@mui/material';
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -12,10 +14,15 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-export default function Gallery() {
+const Gallery = () => {
+
+  const [likes,setLikes] = useState(0);
+
   return (
 
     <><h3 className={styles.h3} > | Galeria</h3>
+    <Button onClick={() => setLikes(likes+1)}>{likes} likes</Button>
+
 
     <ImageList
       sx={{ width: 1072, height: 625 }}
@@ -36,6 +43,9 @@ export default function Gallery() {
     </>
   ); 
 } 
+
+
+
 
 const itemData = [
   {
@@ -96,3 +106,5 @@ const itemData = [
     cols: 2,
   },
 ];
+
+export default Gallery
