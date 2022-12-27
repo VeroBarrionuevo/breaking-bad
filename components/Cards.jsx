@@ -65,7 +65,7 @@ let personajes =[
 
         <Box textAlign="center" sx={{ marginY: "2rem" }}>
           <FormControl variant="standard" color="success" margin="dense">
-            <InputLabel id="select-country">Filtrar por Personaje</InputLabel>
+            <InputLabel id="select-character">Filtrar por Personaje</InputLabel>
             <Select
               labelId="select-character"
               value={inputSelect}
