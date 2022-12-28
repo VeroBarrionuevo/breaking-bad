@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Gallery from '../components/Gallery'
 import Cards from '../components/Cards'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       </Head>
 
       < Hero/>
+
+   
       <main className={styles.main}>
 
 

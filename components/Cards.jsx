@@ -1,8 +1,5 @@
 import React from "react";
-import {Box, Grid,   InputLabel,
-  MenuItem,
-  FormControl,
-  Select,} from "@mui/material";
+import {Box, Grid, MenuItem, FormControl,  Select, InputLabel, inputSelect} from "@mui/material";
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -11,6 +8,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import styles from "../styles/Cards.module.css"
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 
 let personajes =[
@@ -46,7 +44,7 @@ let personajes =[
   "ocupación": "Agente de la DEA"},
   ]
 
-  const Cards = () => {
+  const Cards = (card) => {
 
     const [cardsData, setCardsData] = useState([]);
   
@@ -57,7 +55,8 @@ let personajes =[
     const handleChangeSelect = ({ target }) => {
       setInputSelect(target.value);
     };
-       
+      
+    
 
     return(
       <>
@@ -108,15 +107,10 @@ let personajes =[
             con cáncer de pulmón inoperable, decide empezar a fabricar metanfetamina para poder mantener 
             a su familia provista de cara al futuro.
             </Typography>
-            
+          
+
           </CardContent>
-          <CardActions>
-            <Button size="small">Share</Button>
- 
-
-
-            <Button size="small">Learn More</Button>
-          </CardActions>
+          
         </Card>
 
         <Card  className={styles.grid} sx={{ maxWidth: 345 }}>
@@ -136,8 +130,6 @@ let personajes =[
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
           </CardActions>
         </Card>
 
@@ -158,8 +150,7 @@ let personajes =[
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+      
           </CardActions>
         </Card>
 
@@ -183,8 +174,7 @@ let personajes =[
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+           
           </CardActions>
         </Card>
 
@@ -205,8 +195,7 @@ let personajes =[
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+         
           </CardActions>
         </Card>
 
@@ -226,8 +215,8 @@ let personajes =[
             </Typography>
           </CardContent>
           <CardActions>
-            <Button size="small">Share</Button>
-            <Button size="small">Learn More</Button>
+         
+         
           </CardActions>
         </Card>
         </Grid> 

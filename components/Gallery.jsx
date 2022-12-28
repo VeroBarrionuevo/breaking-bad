@@ -56,11 +56,11 @@ const itemData = [
   },
   {
     img: 'https://i.ytimg.com/vi/XZ0Gr6HWbbg/maxresdefault.jpg',
-    title: 'Burger',
+    title: 'Breaking',
   },
   {
     img: 'https://static.onecms.io/wp-content/uploads/sites/6/2018/07/bbd-2000.jpg',
-    title: 'Car',
+    title: 'Bad',
   },
   {
     img: 'https://sm.ign.com/ign_latam/screenshot/default/gliding-over-all_8pt9.jpg',
@@ -94,7 +94,7 @@ const itemData = [
   },
   {
     img: 'https://www.cheatsheet.com/wp-content/uploads/2021/11/Walter-White-Season-4-Finale.jpg',
-    title: 'call',
+    title: 'Call',
   },
   {
     img: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F07%2Fbbepisode401day6_28cama3_29-94-2000.jpg',
