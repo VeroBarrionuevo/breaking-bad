@@ -20,10 +20,8 @@ const Gallery = () => {
 
   return (
 
-    <><h3 className={styles.h3} > | Galeria</h3>
-    <Button onClick={() => setLikes(likes+1)}>{likes} likes</Button>
-
-
+    <><h3 className={styles.h3} > | Gallery</h3>
+   
     <ImageList
       sx={{ width: 1072, height: 625 }}
       variant="quilted"
@@ -40,6 +38,8 @@ const Gallery = () => {
         </ImageListItem>
       ))}
     </ImageList>
+    <Button variant='contained' color='success' size="small"
+    onClick={() => setLikes(likes+1)}>{likes} likes</Button>
     </>
   ); 
 } 
@@ -49,62 +49,57 @@ const Gallery = () => {
 
 const itemData = [
   {
-    img: 'https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/UFYXLOGMAZEXPH6X6SWJAARIFQ.jpg',
-    title: 'Teacher',
+    img: 'https://cdn.mos.cms.futurecdn.net/iPgBzYHZpG54etp7bT2h8J.jpg',
+   
     rows: 2,
     cols: 2,
   },
   {
-    img: 'https://i.ytimg.com/vi/XZ0Gr6HWbbg/maxresdefault.jpg',
-    title: 'Breaking',
+    img: 'https://assets1.ignimgs.com/2018/06/22/total-rickall-1529699545279.png',
+   
   },
   {
-    img: 'https://static.onecms.io/wp-content/uploads/sites/6/2018/07/bbd-2000.jpg',
-    title: 'Bad',
+    img: 'https://filmdaily.co/wp-content/uploads/2018/05/rick-and-morty-renewed-1300x731.jpg',
+   
   },
   {
-    img: 'https://sm.ign.com/ign_latam/screenshot/default/gliding-over-all_8pt9.jpg',
-    title: 'Money',
+    img: 'https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Ffansided.com%2Ffiles%2F2020%2F04%2FRooftop-Lamentations-_-Rick-and-Morty-_-adult-swim.jpg',
+
     cols: 2,
   },
   {
-    img: 'https://acrossthemargin.com/wp-content/uploads/2014/08/4daysout.jpg',
-    title: 'Chemical',
+    img: 'https://filmdaily.co/wp-content/uploads/2018/01/rick-and-morty-1-1300x731.jpg',
+
     cols: 2,
   },
   {
-    img: 'https://vader.news/__export/1625367204944/sites/gadgets/img/2021/06/22/hank-jesse_breaking_bad.jpg_2062789929.jpg',
-    title: 'Honey',
+    img: 'https://www.fortressofsolitude.co.za/wp-content/uploads/2021/06/5-Best-Rick-and-Morty-Episodes-So-Far.png',
+    
     rows: 2,
     cols: 2,
   },
   {
-    img: 'https://forucinema.com/wp-content/uploads/2021/08/Breaking-Bad-Walt-1024x577.jpg',
-    title: 'Dead',
+    img: 'https://cdn.vox-cdn.com/thumbor/9G23HiyZAiaijT9f0gwCLP-ORAM=/254x0:1874x1215/1400x1400/filters:focal(254x0:1874x1215):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/46828504/RAM_S2_Ep205.0.0.jpg',
+    
   },
   {
-    img: 'https://i.pinimg.com/originals/13/6c/b1/136cb16ae3041cbeb20743c6614a848c.jpg',
-    title: 'Fern',
+    img: 'https://cdn.ponly.com/wp-content/uploads/Rick-and-Morty-Quotes-scaled.jpeg',
+    
   },
   {
-    img: 'https://www.hollywoodreporter.com/wp-content/uploads/2013/08/breaking_bad.jpg?w=2000&h=1126&crop=1',
-    title: 'Smoke',
+    img: 'https://assets1.ignimgs.com/2018/06/22/the-ricks-must-be-crazy-1529699545274.png',
+    
     rows: 2,
     cols: 2,
   },
   {
-    img: 'https://www.cheatsheet.com/wp-content/uploads/2021/11/Walter-White-Season-4-Finale.jpg',
-    title: 'Call',
-  },
-  {
-    img: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2018%2F07%2Fbbepisode401day6_28cama3_29-94-2000.jpg',
-    title: 'Ready',
-  },
-  {
-    img: 'https://i.insider.com/59d269ced7605b52008b48d7?width=1136&format=jpeg',
-    title: 'Looking',
+    img: 'https://www.nag.co.za/wp-content/uploads/2022/08/Nag-Best-Episodes-07.jpg',
+    
+    rows: 2,
     cols: 2,
   },
+  
+
 ];
 
 export default Gallery

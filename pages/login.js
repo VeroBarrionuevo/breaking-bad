@@ -99,7 +99,7 @@ const Login = () => {
             <CardMedia
               component="img"
               height="250"
-              image="https://acrossthemargin.com/wp-content/uploads/2014/08/4daysout.jpg"
+              image="https://cdn.ponly.com/wp-content/uploads/Rick-and-Morty-Quotes-scaled.jpeg"
               alt="sunset"
             />
 

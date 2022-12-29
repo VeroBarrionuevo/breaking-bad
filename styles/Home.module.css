@@ -29,7 +29,7 @@
 }
 
 .title {
-  color: rgb(26,51,30);
+  color: rgb(35, 70, 41);
   font-weight: bold;
   font-variant: small-caps;
 }
@@ -89,8 +89,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: rgb(228, 151, 112);
+  border-color: rgb(228, 151, 112);
 }
 
 .card h2 {

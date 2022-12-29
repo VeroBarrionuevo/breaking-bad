@@ -7,6 +7,8 @@ import Cards from '../components/Cards'
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+
+
 export default function Home() {
   return (
     <div className={styles.container}
@@ -24,9 +26,11 @@ export default function Home() {
 
 
         <h1 className={styles.title}>
-          Breaking Bad Wiki
+         Rick and Morty | Wiki
         </h1> 
         
+        
+
         < Cards/>
         < Gallery/>
 

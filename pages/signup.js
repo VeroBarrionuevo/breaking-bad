@@ -77,8 +77,8 @@ const SignUp = () => {
             <CardMedia
               component="img"
               height="250"
-              image="https://www.goldderby.com/wp-content/uploads/2019/10/Breaking-Bad-Greatest-Episodes.jpg?w=620"
-              alt="sunset"
+              image="https://www.fortressofsolitude.co.za/wp-content/uploads/2021/06/5-Best-Rick-and-Morty-Episodes-So-Far.png"
+              
             />
             <CardContent component="div">
               <Typography gutterBottom variant="h5" align="center">

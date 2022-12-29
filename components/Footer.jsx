@@ -22,7 +22,7 @@ const Footer = () => {
             width: 1349,
             height: 120,
             position: "static",
-            background: "linear-gradient(to top, #1a331e, #155736)",
+            background: "linear-gradient(to top, #bb789f, #c58b6e)",
           }}
         >
           <Toolbar
@@ -35,7 +35,7 @@ const Footer = () => {
             }}
           >
             <Typography sx={{ fontWeight: "bold" }}>
-              Breaking Bad Wiki | Hecho por Verónica Barrionuevo
+              Rick and Morty | Wiki - Hecho por Verónica Barrionuevo
             </Typography>
             <Typography>Copyright &copy; 2022 - Todos los derechos reservados.</Typography>
           
